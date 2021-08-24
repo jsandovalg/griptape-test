@@ -1,4 +1,4 @@
-# griptapejs-example
+# griptapejs-hello-world
 
 ## Project setup
 ```
