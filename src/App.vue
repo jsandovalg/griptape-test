@@ -9,6 +9,7 @@
 </template>
 
 <script>
+import { griptape } from '@stakeordie/griptape.js';
 import { stkd } from './contracts'
 
 export default {
@@ -19,7 +20,9 @@ export default {
   },
 
   mounted() {
-    this.fetchTokenInfo()
+    griptape.onConnect(() => {
+        this.fetchTokenInfo()
+    });
   },
 
   methods: {
