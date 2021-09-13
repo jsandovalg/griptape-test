@@ -1,15 +1,7 @@
-import { createContract } from "@stakeordie/griptape.js";
-
-const def = {
-    queries: {
-        getTokenInfo() {
-            return { token_info: { } }
-        }
-    }
-};
+import { createContract, snip20Def } from "@stakeordie/griptape.js";
 
 export const stkd = createContract({
-    id: 'stkd',
-    at: 'secret1847naf7ral278nqmj7gsvcv28zqfyeprd2al6v',
-    definition: def
+    id: 'sefi',
+    at: 'secret12q2c5s5we5zn9pq43l0rlsygtql6646my0sqfm',
+    definition: snip20Def
 });

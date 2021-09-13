@@ -1036,10 +1036,10 @@
   resolved "https://registry.yarnpkg.com/@soda/get-current-script/-/get-current-script-1.0.2.tgz#a53515db25d8038374381b73af20bb4f2e508d87"
   integrity sha512-T7VNNlYVM1SgQ+VsMYhnDkcGmWhQdL0bDyGm5TlQ3GBXnJscEClUUOKduWTmm2zCnvNLC1hc3JpuXjs/nFOc5w==
 
-"@stakeordie/griptape.js@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@stakeordie/griptape.js/-/griptape.js-0.3.3.tgz#2fa50212d48925deabc0b30ba63a93ca49c94341"
-  integrity sha512-8wVNaKsaWdjdN0n7jAyzkSsPCB8rJZ/iLb1Kq1PgQ6eGArEbEpnYY2y/NHXMATqtiiSN/YZ/bW5HZ0FtBgP/GQ==
+"@stakeordie/griptape.js@^0.3.4":
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/@stakeordie/griptape.js/-/griptape.js-0.3.4.tgz#6bf7a537e2bb2f3f8eff1ebc23465efd5f5d6698"
+  integrity sha512-esS1aZ5RO7T1Nm1A39VPsgMVFkVXE21Ttnx+wp0jh1/1jmL2Ab59myyaT8UjKZWQqFfQGd92k+8zqmIL0pfrdQ==
   dependencies:
     axios "^0.21.1"
     decimal.js "^10.2.1"

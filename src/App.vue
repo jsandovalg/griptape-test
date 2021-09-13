@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import { griptape } from '@stakeordie/griptape.js';
+import { griptape} from '@stakeordie/griptape.js';
 import { stkd } from './contracts';
 import { secretCounter } from './contracts/secret-counter';
 
@@ -22,7 +22,7 @@ export default {
   data() {
     return {
       tokenInfo: undefined,
-      count: undefined
+      count: undefined,
     }
   },
 
